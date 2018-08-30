@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '视频播放器' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  pod 'Masonry'
+
+  # Pods for 视频播放器
+
+  target '视频播放器Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '视频播放器UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
